@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Form</title>
+    <link rel="stylesheet" href="lol.css">
+</head>
+
+<body>
+    <div class="mainDiv">
+    <h1>User Input Form</h1>
+    <form method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+        <label>Favorite Subject:</label><br>
+        <input type="checkbox" id="math" name="subject" value="Math">
+        <label for="math">Math</label><br>
+        <input type="checkbox" id="science" name="subject" value="Science">
+        <label for="science">Science</label><br>
+        <input type="checkbox" id="history" name="subject" value="History">
+        <label for="history">History</label><br><br>
+        <label>Favorite Singer:</label><br>
+        <input type="radio" id="singer1" name="singer" value="Singer 1">
+        <label for="singer1">Singer 1</label><br>
+        <input type="radio" id="singer2" name="singer" value="Singer 2">
+        <label for="singer2">Singer 2</label><br>
+        <input type="radio" id="singer3" name="singer" value="Singer 3">
+        <label for="singer3">Singer 3</label><br><br>
+        <label for="movie">Favorite Movie:</label><br>
+        <input type="text" id="movie" name="movie" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+
+</html>

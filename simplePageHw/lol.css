@@ -22,3 +22,8 @@
     background-color: rgb(206, 206, 206);
     padding: 2%;
 }
+.themeChangerClass {
+    display: flex;
+    gap: 5px;
+    text-align: left;
+}

@@ -1,4 +1,65 @@
 * {
     margin: 0;
     padding: 0;
+    /* display: flex;
+    justify-content: center; */
+}
+.mainArea {
+    margin: 1rem;
+}
+/* .header {
+    display: flex;
+    justify-content: center;
+} */
+.navBar {
+    display: flex;
+    justify-content: end;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+.main {
+    background-color: rgb(240, 240, 240);
+    color: black;
+}
+.aboutME {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    padding: 1rem;
+    border: 1px solid black;
+}
+.aboutMeText {
+    max-width: 50em;
+    text-align: justify;
+}
+.aboutMEImage {
+    background-size: contain;
+    max-height: 1rem;
+    max-width: 1rem;
+    border: 1px solid yellow;
+    border-radius: 50%;
+}
+.heading2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 1rem;
+}
+.aboutYouForm {
+    padding: 2rem;
+    border: 1px solid black;
+}
+.submitButton {
+    padding: 2px;
+}
+.footer {
+    margin: 1rem;
+    /* padding: 1rem;
+    text-align: center; */
+    border: 1px solid black;
+}
+.footerText {
+    text-align: center;
+    padding: 1rem;    
 }

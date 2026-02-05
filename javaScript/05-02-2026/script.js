@@ -25,3 +25,13 @@ function riyalFun1() {
 function riyalFun2() {
     document.getElementById("daRiyalText").innerText = "Coursor is outside div";
 }
+
+const bulbChalao = document.getElementById("bulbBtn");
+bulbChalao.addEventListener("click", bulbFun1);
+bulbChalao.addEventListener("click", bulbFun2);
+function bulbFun1() {
+    document.getElementById("bulbImages")
+}
+function bulbFun2() {
+    document.getElementById("bulbImage")
+}

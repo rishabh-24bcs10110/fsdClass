@@ -1,6 +1,11 @@
-.dateNdTimeDiv, .daRiyalDiv {
+.dateNdTimeDiv, .daRiyalDiv, .bulb {
     margin: 1rem;
     padding: 1rem;
     border: 2px solid grey;
     box-shadow: 10px 10px 15px grey;
+}
+
+.bulbImages {
+    height: 100px;
+    width: 100px;
 }

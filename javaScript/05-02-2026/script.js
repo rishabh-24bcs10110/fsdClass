@@ -30,8 +30,10 @@ const bulbChalao = document.getElementById("bulbBtn");
 bulbChalao.addEventListener("click", bulbFun1);
 bulbChalao.addEventListener("click", bulbFun2);
 function bulbFun1() {
-    document.getElementById("bulbImages")
+    document.getElementById("bulbImages").innerText = "./assets/onn.png"
+    document.getElementById("bulbBtn").innerText = "turn off";
 }
 function bulbFun2() {
-    document.getElementById("bulbImage")
+    document.getElementById("bulbImages").innerText = "./assets/off.png"
+    document.getElementById("bulbBtn").innerText = "turn onn";
 }
